@@ -1,6 +1,6 @@
 <?php
 
-namespace Uploader\Exception;
+namespace Ling\Uploader\Exception;
 
 /*
  * LingTalfi 2016-01-06

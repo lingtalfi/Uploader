@@ -14,7 +14,7 @@ Install
 ==========
 Using the [uni](https://github.com/lingtalfi/universe-naive-importer) command.
 ```bash
-uni import Uploader
+uni import Ling/Uploader
 ```
 
 
@@ -61,9 +61,9 @@ You can use this server with [dropzone.js](http://dropzonejs.com/) for instance.
 //------------------------------------------------------------------------------/
 // EXAMPLE SERVER FOR FILE UPLOADING
 //------------------------------------------------------------------------------/
-use Tim\TimServer\OpaqueTimServer;
-use Tim\TimServer\TimServerInterface;
-use Uploader\Exception\UploaderUserException;
+use Ling\Tim\TimServer\OpaqueTimServer;
+use Ling\Tim\TimServer\TimServerInterface;
+use Ling\Uploader\Exception\UploaderUserException;
 
 
 
@@ -123,10 +123,10 @@ And the upload.init.php file could contain something like this:
 ```php
 <?php
 
-use Uploader\Exception\UploaderUserException;
-use Uploader\File\PhpFile;
-use Uploader\Uploader\PhpFileUploader;
-use Uploader\Uploader\UploaderInterface;
+use Ling\Uploader\Exception\UploaderUserException;
+use Ling\Uploader\File\PhpFile;
+use Ling\Uploader\Uploader\PhpFileUploader;
+use Ling\Uploader\Uploader\UploaderInterface;
 
 
 /**
